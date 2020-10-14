@@ -1,0 +1,20 @@
+{
+    "nombreApp": "Proyecto Final",
+    "rutas" : [
+        {
+            "ruta": "detalledestinos",
+            "icon": "details",
+            "texto": "Detalle Destinos"
+        },
+        {
+            "ruta": "agregardestinos",
+             "icon": "note_add",
+             "texto": "Agregar Destinos"
+        },
+        {
+            "ruta": "ubicacion",
+            "icon": "add_location",
+            "texto": "Ubicacion"
+        }
+    ]
+}
