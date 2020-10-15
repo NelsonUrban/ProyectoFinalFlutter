@@ -2,7 +2,7 @@
     "nombreApp": "Proyecto Final",
     "rutas" : [
         {
-            "ruta": "detalledestinos",
+            "ruta": "listadoDestinos",
             "icon": "details",
             "texto": "Detalle Destinos"
         },

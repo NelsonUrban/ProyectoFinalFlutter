@@ -24,7 +24,7 @@ class _AddDestinosState extends State<AddDestinos> {
           Divider(),
           _agregarImagen(),
           Divider(),
-          _agregarLocation()
+          _agregarLocation(),
         ],
       ),
     );
