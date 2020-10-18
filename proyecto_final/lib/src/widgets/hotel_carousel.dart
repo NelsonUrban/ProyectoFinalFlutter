@@ -12,7 +12,7 @@ class HotelCarousel extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
               Text(
-                'Exclusive Hotels',
+                'Hoteles',
                 style: TextStyle(
                   fontSize: 22.0,
                   fontWeight: FontWeight.bold,
@@ -20,9 +20,9 @@ class HotelCarousel extends StatelessWidget {
                 ),
               ),
               GestureDetector(
-                onTap: () => print('See All'),
+                onTap: () => print('Ver todos'),
                 child: Text(
-                  'See All',
+                  'Ver todos',
                   style: TextStyle(
                     color: Theme.of(context).primaryColor,
                     fontSize: 16.0,
@@ -78,7 +78,7 @@ class HotelCarousel extends StatelessWidget {
                               ),
                               SizedBox(height: 2.0),
                               Text(
-                                '\$${hotel.price} / night',
+                                '\$${hotel.price} / noche',
                                 style: TextStyle(
                                   fontSize: 18.0,
                                   fontWeight: FontWeight.w600,
@@ -92,7 +92,7 @@ class HotelCarousel extends StatelessWidget {
                     Container(
                       decoration: BoxDecoration(
                         color: Colors.white,
-                        borderRadius: BorderRadius.circular(20.0),
+                        borderRadius: BorderRadius.circular(18.0),
                         boxShadow: [
                           BoxShadow(
                             color: Colors.black26,
@@ -102,7 +102,7 @@ class HotelCarousel extends StatelessWidget {
                         ],
                       ),
                       child: ClipRRect(
-                        borderRadius: BorderRadius.circular(20.0),
+                        borderRadius: BorderRadius.circular(18.0),
                         child: Image(
                           height: 180.0,
                           width: 220.0,
