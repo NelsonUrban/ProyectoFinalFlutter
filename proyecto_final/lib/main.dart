@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Turismo APP',
+      title: 'Turismo RD',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primaryColor: Color(0xFF3EBACE),
