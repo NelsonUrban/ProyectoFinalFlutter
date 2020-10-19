@@ -3,6 +3,8 @@ import 'package:proyecto_final/src/pages/add_destinos_page.dart';
 
 import 'package:proyecto_final/src/routes/routes.dart';
 
+import 'src/pages/add_destinos_page.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
